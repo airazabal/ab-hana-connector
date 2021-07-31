@@ -9,7 +9,7 @@ Available examples
 This repository has one example to help you build a connector. 
 To build:
     - # build the docker image and create the zip file which has all the properties and jars
-    - ,.builhana.sh
+    - ,.builhana.sh (if you run this without a kafka instance it will fail once it tries to connect...this is as expected)
 
     this command will create a docker image (docker build...) which copies the connector properties and jars included in the hana.zip file
 
